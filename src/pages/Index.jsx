@@ -101,6 +101,16 @@ const Index = () => {
           <Button colorScheme="blue" onClick={handleLogin}>
             Login
           </Button>
+          <Text>Or login with:</Text>
+          <Button leftIcon={<FaGoogle />} colorScheme="red">
+            Google
+          </Button>
+          <Button leftIcon={<FaLinkedin />} colorScheme="blue">
+            LinkedIn
+          </Button>
+          <Button leftIcon={<FaGithub />} colorScheme="gray">
+            GitHub
+          </Button>
           <Link href="#">Forgot password?</Link>
 
           <Heading>Dashboard</Heading>
